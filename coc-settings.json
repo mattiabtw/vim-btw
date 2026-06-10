@@ -1,0 +1,17 @@
+{
+  "languageserver": {
+    "nix": {
+      "command": "nil",
+      "filetypes": ["nix"],
+      "rootPatterns": ["flake.nix", "shell.nix", ".git"]
+    },
+    "hyprlang": {
+      "command": "hyprls",
+      "filetypes": ["hyprlang"],
+      "rootPatterns": [".git"]
+    }
+  },
+  "suggest.noselect": true,
+  "suggest.enablePreview": true,
+  "coc.preferences.formatOnSaveFiletypes": ["json", "css", "markdown", "javascript", "typescript"]
+}

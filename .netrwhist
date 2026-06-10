@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/usr/share/bash-completion'
+let g:netrw_dirhist_5='/home/dario/.config/niri'
+let g:netrw_dirhist_4='/home/dario/.config/waybar'
+let g:netrw_dirhist_3='/home/dario/.config/foot'
+let g:netrw_dirhist_2='/home/dario/.config/waybar'
+let g:netrw_dirhist_1='/home/dario/.config/fuzzel'
+let g:netrw_dirhist_0='/home/dario/.config/waybar'
+let g:netrw_dirhist_9='/home/dario/.config/foot'
+let g:netrw_dirhist_8='/home/dario/.config/waybar'
+let g:netrw_dirhist_7='/home/dario/nitch/src/funcs'
