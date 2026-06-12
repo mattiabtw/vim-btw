@@ -13,6 +13,7 @@ To use this configuration with all language servers working, you need the follow
 ### Language Servers
 - `nil` (Nix)
 - `hyprls` (Hyprland Config)
+- `haskell-language-server` (Haskell)
 - `pyright` (Python)
 - `clangd` (C/C++)
 - `rust-analyzer` (Rust)
@@ -25,7 +26,7 @@ To use this configuration with all language servers working, you need the follow
 
 ### Installation (Arch Linux)
 ```bash
-sudo pacman -S nodejs npm git clang gopls rust-analyzer pyright typescript-language-server vscode-json-languageserver vscode-css-languageserver vscode-html-languageserver taplo-cli shellcheck lua-language-server bash-language-server
+sudo pacman -S nodejs npm git clang gopls rust-analyzer pyright typescript-language-server vscode-json-languageserver vscode-css-languageserver vscode-html-languageserver taplo-cli shellcheck lua-language-server bash-language-server haskell-language-server
 # AUR dependencies
 yay -S nil hyprls
 ```
