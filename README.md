@@ -2,24 +2,30 @@
 
 A small, blazingly fast and minimal Vim config.
 
-## Description
-This is my personal Vim configuration, optimized for speed and functionality using `coc.nvim` for autocompletion.
-
 ## Dependencies
-To use this config with full autocompletion support, you need:
-- **Node.js** (>= 16.10)
-- **npm**
-- **GCC / G++** (for compiling native extensions)
-- **git** (for the plugin wrapper)
 
-## Installation
-1. Clone this repo into `~/.vim`:
-   ```bash
-   git clone https://github.com/mattiabtw/vim-btw ~/.vim
-   ```
-2. Symlink the `vimrc`:
-   ```bash
-   ln -s ~/.vim/vimrc ~/.vimrc
-   ```
-3. Open Vim and let the custom plugin wrapper download the plugins.
-4. Install language servers as needed, e.g., `:CocInstall coc-pyright`.
+To use this configuration with all language servers working, you need the following system dependencies:
+
+### Core
+- `nodejs` & `npm` (for coc.nvim and most LSPs)
+- `git` (for plugin management)
+
+### Language Servers
+- `nil` (Nix)
+- `hyprls` (Hyprland Config)
+- `pyright` (Python)
+- `clangd` (C/C++)
+- `rust-analyzer` (Rust)
+- `gopls` (Go)
+- `typescript-language-server` (JS/TS)
+- `vscode-langservers-extracted` (JSON, CSS, HTML)
+- `taplo` (TOML)
+- `shellcheck` & `bash-language-server` (Bash)
+- `lua-language-server` (Lua)
+
+### Installation (Arch Linux)
+```bash
+sudo pacman -S nodejs npm git clang gopls rust-analyzer pyright typescript-language-server vscode-json-languageserver vscode-css-languageserver vscode-html-languageserver taplo-cli shellcheck lua-language-server bash-language-server
+# AUR dependencies
+yay -S nil hyprls
+```
